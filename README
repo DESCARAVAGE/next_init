@@ -1,0 +1,59 @@
+
+# Road Map Frontend — Début
+
+Ceci est le début de ma Road Map Frontend — un projet d'exploration et d'apprentissage construit avec Next.js et React.
+
+Ce dépôt contient une base minimale Next.js pour expérimenter des concepts frontend, composants, routing et meilleures pratiques.
+
+**Prérequis**
+
+- Node.js (recommandé : 18.x ou supérieur)
+- npm (ou yarn)
+
+**Installation**
+
+1. Cloner le dépôt ou télécharger les sources.
+2. Installer les dépendances :
+
+```
+npm install
+```
+
+**Lancer en développement**
+
+```
+npm run dev
+```
+
+Ouvrez ensuite http://localhost:3000 dans votre navigateur.
+
+Remarque : le script `dev` est défini dans `package.json` et lance `next dev`.
+
+**Construire et prévisualiser (non implémenté)**
+
+Si vous souhaitez créer une build de production et la servir localement :
+
+```
+npx next build
+npx next start
+```
+
+(Vous pouvez aussi ajouter les scripts `build` et `start` dans `package.json` si vous préférez `npm run build` / `npm run start`.)
+
+**Structure du projet**
+
+- `app/` : pages et layout de l'application Next.js
+- `images/` : images du projet
+- `package.json` : scripts et dépendances
+
+**Objectif**
+
+Ce dépôt sert à documenter et implémenter progressivement une feuille de route (road map) frontend : composants réutilisables, architecture, tests, performance, accessibilité et déploiement.
+
+**Contributions**
+
+Les contributions sont bienvenues : ouvrez une issue ou une pull request pour proposer des idées, exercices ou améliorations.
+
+**Licence**
+
+Pour l'instant : pas de licence formelle. Si vous souhaitez réutiliser le contenu, contactez-moi ou proposez une licence via une PR.
